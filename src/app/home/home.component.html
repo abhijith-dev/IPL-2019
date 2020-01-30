@@ -1,0 +1,22 @@
+<div class="row-md-2">
+  <div class="col-sm-6">
+    <h1>WELCOME TO IPL-2020</h1>
+<h1>Team -IPL 2020</h1>
+</div>
+
+<div class="col-md-8">
+  <select class="form-control col-md-4"(change)="getPlayers($event)">
+    <option value="" disabled>Select Team</option>
+     <option *ngFor="let team of teams" value="{{team}}">{{team}}</option>
+
+  </select>
+  <div *ngIf="players && players.length>0" >
+  <table>
+    <thead>
+    </thead>
+    <tbody>
+      </tbodyu
+  </table>
+ </div>
+</div>
+ 
